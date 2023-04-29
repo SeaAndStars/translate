@@ -7,8 +7,6 @@ def translate_text(text, return_language):
     key = "TRANSLATOR_TEXT_SUBSCRIPTION_KEY"
     endpoint = "https://api.cognitive.microsofttranslator.com"
 
-    # location, also known as region.
-    # required if you're using a multi-service or regional (not global) resource. It can be found in the Azure portal on the Keys and Endpoint page.
     location = "TRANSLATOR_TEXT_REGION"
 
     path = '/translate'
